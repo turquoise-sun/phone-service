@@ -20,12 +20,12 @@ Be aware: setting entity identifiers explicitly while performing CREATE operatio
 
 #### DATA PERSISTENCE
 Data persistence is provided by HSQLDB.
-Changing default path to database in
-
+Database is running in in-memory mode.
+You can specify
 ```
-src\main\resources\config\application.properties
+spring.datasource
 ```
-is advised.
+properties to enable embedded mode.
 
 #### SQL SCRIPTS
 Test data and database schema scripts are located at
