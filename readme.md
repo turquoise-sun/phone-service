@@ -2,7 +2,8 @@
 Allows you to perform CRUD operations on inquires with multiple attributes according to offered topics.
 
 #### OPERATIONS
-Retrieve list of available topics: GET / topics
+
+* Retrieve list of available topics: GET / topics
 
 * Get inquiry list for specified customer: GET /customers/{customerName}/inquiries
 
@@ -17,23 +18,21 @@ Retrieve list of available topics: GET / topics
 #### ATTENTION
 Be aware: setting entity identifiers explicitly while performing CREATE operations is FORBIDDEN.
 
-#### TESTS
-To perform tests you need to execute "clean test" Maven goal.
-
 #### DATA PERSISTENCE
 Data persistence is provided by HSQLDB.
 Changing default path to database in
-'''
+
+```
 src\main\resources\config\application.properties
-'''
+```
 is advised.
 
 #### SQL SCRIPTS
 Test data and database schema scripts are located at
 
-'''
+```
 src\main\resources\data\hsqldb
-'''
+```
 
 #### Installation
 
