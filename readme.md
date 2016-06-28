@@ -16,7 +16,7 @@ Allows you to perform CRUD operations on inquires with multiple attributes accor
 * Delete specified inquiry for specified customer DELETE: / customers/{customerName}/inquiries/{inquiryId}
 
 #### ATTENTION
-Be aware: setting entity identifiers explicitly while performing CREATE operations is FORBIDDEN.
+Be aware: setting entity identifiers explicitly while performing CREATE operations is FORBIDDEN!
 
 #### DATA PERSISTENCE
 Data persistence is provided by HSQLDB.
@@ -98,4 +98,3 @@ The application distribution artifact is placed in the /target directory and is 
 ```
 java -jar phone-service-0.0.1.jar
 ```
-
